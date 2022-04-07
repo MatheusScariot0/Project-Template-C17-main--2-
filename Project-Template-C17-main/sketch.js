@@ -70,7 +70,7 @@ function draw() {
   background(0);
   
   drawSprites();
-  textSize(20);
+  textSize(20); 
   fill(255); 
   text("Distance: "+ distance,900,30);
   
@@ -84,12 +84,12 @@ function draw() {
    edges= createEdgeSprites();
    mainCyclist .collide(edges);
   
-  //code to reset the background
+  
   if(path.x < 0 ){
     path.x = width/2;
   }
   
-    //code to play cycle bell sound
+   
   if(keyDown("space")) {
     cycleBell.play();
   }
