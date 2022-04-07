@@ -71,7 +71,7 @@ function draw() {
   
   drawSprites();
   textSize(20);
-  fill(255);
+  fill(255); 
   text("Distance: "+ distance,900,30);
   
   if(gameState===PLAY){
